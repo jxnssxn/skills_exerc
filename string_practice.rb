@@ -24,3 +24,12 @@ input = gets.chomp
 if input == "marco"
   puts "polo"
 end
+
+# 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+one = "navy blue"
+two = "ruby red"
+three = "forest green"
+
+my_fav_colors = "My favorite colors are " + one + ", " + two + ", and " + three + "."
+p my_fav_colors
