@@ -33,3 +33,13 @@ three = "forest green"
 
 my_fav_colors = "My favorite colors are " + one + ", " + two + ", and " + three + "."
 p my_fav_colors
+
+# 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+
+one = "navy blue"
+two = "ruby red"
+three = "forest green"
+
+my_fav_colors = "My favorite color palette is #{three}, #{two} and #{one}."
+
+p my_fav_colors
