@@ -14,3 +14,13 @@ last_nombre = "Hernandez"
 full_nombre = "My friend's name is #{first_nombre} #{last_nombre}."
 
 p full_nombre
+
+# 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+
+puts "What's the first name of the famous Italian merchant that now has a game named after him?"
+
+input = gets.chomp
+
+if input == "marco"
+  puts "polo"
+end
