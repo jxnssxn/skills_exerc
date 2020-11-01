@@ -69,12 +69,18 @@ end
 
 # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
-while
-  puts "Enter the name of a fruit with more than 5 letters: "
-  fruit = gets.chomp
-  if fruit.length > 5
-    break
+  while true
+    puts "Enter the name of a fruit with more than 5 letters: "
+    fruit = gets.chomp
+    if fruit.length > 5
+      break
+    end
   end
-end
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
+
+two_forty = 2
+while two_forty <= 40
+  p two_forty
+  two_forty += 2
+end
