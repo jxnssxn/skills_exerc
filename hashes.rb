@@ -33,3 +33,28 @@ a_book = [
 ]
 
 p a_book[2]["Author"]
+
+# 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
+
+states_capitals = {"NV" => "Carson City", "PA" => "Harrisburg", "GA" => "Atlanta"}
+states_capitals["MI"] = "Detroit"
+p states_capitals
+
+# 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
+
+laptop = {"brand" => "Pineapple", "model" => "Station 5", "year" => 2021}
+
+p laptop["brand"]
+p laptop["model"]
+p laptop["year"]
+
+# 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+
+laptop1 = {"brand" => "Pear", "model" => "S Lite", "year" => 2022}
+laptop3 = {"brand" => "Pineapple", "model" => "Station 5", "year" => 2021}
+laptop2 = {"brand" => "Strawberry", "model" => "M4A Plus", "year" => 2023}
+
+p laptop2["model"]
+# 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
+
+# 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
