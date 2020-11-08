@@ -55,6 +55,17 @@ laptop3 = {"brand" => "Pineapple", "model" => "Station 5", "year" => 2021}
 laptop2 = {"brand" => "Strawberry", "model" => "M4A Plus", "year" => 2023}
 
 p laptop2["model"]
+
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
+synonyms = {"large" => "inmense", "small" => "puny"}
+synonyms["average"] = "regular"
+
+p synonyms
+
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+t_shiirt = {"brand" => "Mango", "color" => "forest green", "size" => "M"}
+p t_shiirt["brand"]
+p t_shiirt["color"]
+p t_shiirt["size"]
